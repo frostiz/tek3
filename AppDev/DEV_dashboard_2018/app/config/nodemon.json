@@ -1,0 +1,20 @@
+{
+  "restartable": "rs",
+  "ignore": [
+    ".git",
+    "app/node_modules/",
+    "app/client/public/javascript/vendor/",
+    "app/client/public/fonts/"
+  ],
+  "verbose": true,
+  "execMap": {
+    "js": "node --harmony"
+  },
+  "watch": [
+    "app/"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ext": "js,json,ejs,css"
+}
